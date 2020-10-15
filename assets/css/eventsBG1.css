@@ -1,0 +1,446 @@
+/* 
+Created by: Rowel S. Bustillo
+			Web Developer
+			TIP Manila
+			October 16, 2007
+
+Updated by: Beca Jane Frigillana
+            UI Designer
+            Bliss Design Studio
+            Dec 12, 2019
+
+*/
+html, body, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	border: 0;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+	height:20px;
+}
+.clear2 {
+	clear: both;
+	height: 30px;
+}
+
+.space {
+	clear: both;
+}
+
+	
+
+}
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+#outer {
+	/*background: bottom center url(../images/footer.gif) repeat-x;*/
+}
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 907px;
+}
+#banner {
+	margin-top:-30px;
+	border: 0px solid #000000;
+	padding-top:5px;
+	height: 182px;
+	background: bottom center url(../images/header3.png) repeat-x;
+}
+#head-menu {
+	border: 1px solid #000000;
+	padding: 5px 5px 5px 5px;
+
+}
+
+#login {
+	width: 300px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #999999;
+}
+#register {
+	width: 400px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #999999;
+}
+
+
+/*************************************************************************/
+/*								LEFT CONTENT							 */
+/*************************************************************************/
+
+#body {
+	background: top left #FFFFFF url(../images/bg_body.gif) repeat-y;
+	position: relative;
+	width:907px;
+}
+#banner-down {
+	border: 0px solid #000000;
+	background: top left #FFFFFF url(../images/hr-top.gif) repeat-x;
+	padding: 30px 0 0 0;
+}
+#body-center {
+	margin:10px	;
+	border: 0px solid #000000;
+	width: 100%;
+	float:left;
+	padding: 5px 0px 5px 0px;
+}
+#body-left {
+	border: 0px solid #000000;
+	float: left;
+	width: 600px;
+	padding: 3px 10px 0px 10px;
+}
+.tag-title {
+	font-size: 18px;
+	font-weight:bold;
+	display:block;
+	padding-left: 30px;
+	height: 28px;
+	background: top left url(../images/tag.gif) no-repeat;
+}
+
+#left-content {
+	text-align:justify;
+	padding-left: 20px;
+    
+}
+	#left-content .title {
+		font-size: 21px;
+		font-weight:bold;
+		display:block;
+		border: 0px solid #CCCCCC;
+		
+	}
+	#left-content .subTitle {
+		font-size:16px;
+		display:block;
+		font-weight:bold;
+		padding-left:10px;
+	}
+	#left-content .sched {
+		padding-left:50px;
+	}
+	#left-content .context {
+		border: 0px solid #000000;
+		padding:5px 0px 0px 20px;
+	}
+/*************************************************************************/
+/*								RIGHT CONTENTS							 */
+/*************************************************************************/
+#body-right {
+	float: right;
+	width: 280px;
+	padding: 40px 0 0 0;
+	text-align:justify;
+    background-color: #e9e9ea;
+}
+.left-title {
+
+	padding: 0px 0px 0px 10px;
+	margin-bottom: 5px;
+    font: 14px Avenir Next;
+	border-bottom: 1px solid #c47946;
+    color: #7e9b6b;
+    font-weight: 650;
+}
+
+.left-title a{
+		display: block;
+		width: 100%;
+		text-decoration: none;
+		color:black;
+		font-weight: bold;
+		border-bottom: 1px solid #E5E5E5;
+	}
+
+.left-title3 {
+		margin-left:10px;
+	padding: 0px 0px 0px 15px;
+	margin-bottom: 5px;
+	background: top left url(../images/bullet/rating_star.png) no-repeat;
+}
+
+.mtitle a {
+    text-decoration: none;
+    color: #b06328;
+}  
+	
+
+.mtitleONE {
+    padding-top: 40px; 
+    font-family: Akrobat; 
+    font-size: 18px; 
+    color: #5e6e51;
+}  
+
+.left-title2 {
+	padding: 0px 0px 0px 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #FF9900;
+	background: bottom left url(../images/bullet/rating_star.png) no-repeat;
+}
+
+
+.left-title2 a{
+		display: block;
+		width: 100%;
+		text-decoration: none;
+		color:black;
+		font-weight: bold;
+		border-bottom: 1px solid #E5E5E5;
+		
+	}
+.left-title2 a:hover{
+		color:#FFCC00;
+		
+	}
+.left-title2 a:active {
+		
+		color:#FFCC00;
+	}
+.left-title2 a:focus {
+		
+		color:#FFCC00;
+	}
+
+#right-content {
+	border: 0px solid #000000;
+	float: left;
+	padding: 10px 10px 0px 10px;
+	width: 80%;
+}
+#right-content ul {	
+	border: 0px solid #000000;
+	font-size:11px;
+	text-align:left;
+
+	margin: 0px 0px 0px 20%;
+	padding-top: 5px;
+	padding-left: 0;
+
+	list-style: none outside url(../images/bullet/ico_pdf_small.gif);
+}
+#right-content li {
+	border-bottom: 1px solid #CCCCCC;
+}
+.catTitle {
+	border: 0px solid #000000;
+}
+.catTitle:hover{
+	border: 0px solid #000000;
+	background-color:#EFEFEF;
+}
+	.catTitle a {
+		color:#999999;
+		text-decoration: none;
+	}
+	.catTitle a:hover{
+		color: #FF0000;	
+	}
+.catref {
+	display:block;
+	border: 0px solid #000000;
+}
+
+/*************************************************************************/
+/*								IMAGES									 */
+/*************************************************************************/
+
+.bg-separator {
+	border: 0px solid #000000;
+	background: top left url(../images/bg_separator.gif) no-repeat;
+	float:left;
+	width:19px;
+	height:307px;
+}
+.bg-img {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/bg-extra2.gif) no-repeat;
+}
+.bg-img-links {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/links.gif) no-repeat;
+}
+.bg-img-rules {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/rules.gif) no-repeat;
+}
+.bg-img-services {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/books.gif) no-repeat;
+}
+.img-holder {
+	border: 0px solid #000000;
+	padding: 10px 5px 10px 5px;
+	text-align:center;
+}
+.img-holder img {
+	border: 1px solid #CACACA;
+}
+
+/*************************************************************************/
+/*								FACILITIES								 */
+/*************************************************************************/
+#fclts {
+	border: 0px solid #000000;
+	text-align:justify;
+	padding: 5px 5px 5px 30px;
+
+}
+#fclts .content{
+	list-style:none;
+	padding-top:50px 0px 0px 20px;
+	background: top left url(../images/bg-extra.jpg) no-repeat;
+
+}
+	#fclts .contentleft {
+		padding: 5px 5px 5px 5px;
+		border-bottom: 1px dashed #C7C7C7;
+		border-top: 1px dashed #C7C7C7;
+	}
+	
+	#fclts .contentcenter {
+		width:228px;
+		padding-left:10px;
+		float:left;
+	}
+	
+	#fclts .contentright {
+		width:200px;
+		padding-left:10px;
+		float:left;
+	}
+
+	a.thumb img{
+		border: 3px solid #FFCC33;
+	}
+	a:hover.thumb img{
+		border: 3px solid #000000;
+	}
+	
+#fclts .txt-cont {
+	font-size:12px;
+	padding-left:5px;
+	background-color: #F0F0F0;
+}
+	#fclts .txt-cont ul{
+		margin: 5px 0px 2px 10px;
+		list-style: none outside url(../images/bullet/2.gif);
+
+	}
+	#fclts .txt-cont li{
+		padding-left:5px;
+	}
+
+.ftitle {
+	font:12px Avenir Next;
+	display:block;
+	padding: 5px 0px 0px 30px;
+}
+
+
+
+.fContainer {
+	border: 1px solid #000000;
+	padding: 10px 10px 10px 10px;
+}
+.content_slide {
+	border: 1px solid #000000;
+}
+/*************************************************************************/
+/*								LINKS									 */
+/*************************************************************************/
+#links {
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	padding: 10px 0px 5px 5px;
+	border: 0px solid #CCCCCC;
+}
+	#links ul.toplink{
+		list-style:none;
+		list-style-position:outside;
+		list-style-image: url(../images/bullet/link.gif);
+	}
+	#links li a {
+		text-decoration: none;
+		color:#003366;
+	}
+	#links li a:hover{
+		color:#FFCC33;
+	}
+	
+	#links .htitle {
+		border: 0px solid #CCCCCC;
+		font-size:14px;
+		font-weight:bold;
+		height:25px;
+	}
+ 
+	#links .hsub {
+		border: 1px solid #CCCCCC;
+		height:20px;
+		font-weight: bold;
+		padding: 5px 0px 0px 20px;
+		background: top left url(../images/bullet/loupe.gif) no-repeat;
+	}
+		#links .hsub a{
+		  text-decoration:none;
+		  color:#003366;
+		}
+		#links .hsub a:hover{
+		  color:#FFCC33;
+		 }
+	
+	#links .hcontent{
+		border-bottom: 0px solid #C0C0C0;
+		margin-left: 30px;
+
+	}
+	#links ul.downlink{
+		list-style:none;
+		list-style-position:outside;
+		list-style-image: url(../images/bullet/link.gif);
+	}
+

@@ -1,0 +1,252 @@
+a/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font: 12px Verdana, "Trebuchet MS", sans-serif;
+}
+
+body { background: #999999 url('../images/bg.jpg') repeat; }
+
+a{ color:#009900;}
+a.theader{ color:#FFFFFF; }
+
+h1 a, h1{
+	font: 27px Verdana, "Trebuchet MS", sans-serif;
+	text-decoration: none;
+}
+
+h2{
+	font: 14px "Trebuchet MS", Verdana;
+	font-weight:bold;
+}
+.emailDiv {text-indent:30px; margin-left:10px; margin-right:10px}
+.vButton { background-color:#FFFFFF; color:#003300; text-decoration:underline ; border:none; font-size: 12px; font-weight: bold; cursor:pointer; width:57px }
+.notes {font-size:10px; color:#333333; font-family:Arial, Helvetica, sans-serif }
+
+img { border: none; }
+img.left { float:left; }
+img.micon { height: 18px; }
+.required_fields { font-size:12px; font-weight:700; color:#FF0000; }
+input.long, select.long { width:150px; }
+input.longer, select.longer { width:220px; }
+.select_ben_month { width:97px; }
+.input_dy_yr { font-size:10px; color:#CCCCCC; font-family:"Courier New", Courier, monospace}
+.ben_birthdate_short { width:45px; }
+.short { width: 25px; }
+input.smallbutton {
+	height: 20px;
+	width: 20px;
+	line-height: 10px;
+}
+
+div.hr { border-bottom: 2px #000000 solid; }
+
+fieldset {
+	margin: 10px 3px 3px 10px;
+	padding: 3px;
+	border: 2px #000000 solid;
+}
+
+p.intro { margin-bottom: 10px; }
+
+small { font-size:10px; }
+
+#content {
+	min-height: 300px;
+}
+
+#wrapper { width:100%; }
+
+#header {
+/*	background-color:#006600;*/
+/*	background:url('../images/bghead.png') repeat-x;*/
+	height: 100px;
+	border-bottom: 3px #000000 solid;
+	width: 100%;
+}
+
+#footer {
+	border-top: 2px #000000 solid;
+	border-bottom: 2px #000000 solid;
+	margin-top: 10px;
+	padding: 3px;
+}
+
+#logo {	float: left; }
+
+#heading {
+	float: left;
+	margin-top: 30px;
+	text-decoration:none;
+}
+
+#heading a { color: #00CC00;}
+
+#pending_list {
+	float:right;
+	margin: 2px 2px 0px 0px;
+	color:#00CC00;
+}
+
+.plistframe {
+	height: 70px;
+	width: 250px;
+	border: 2px #000000 solid;
+}
+
+#menu {
+	background-color:#FFFFFF;
+	height: 25px;
+	width: 100%;
+	position:relative;
+	z-index:100;
+	float:center;
+
+}
+
+#menu ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu ul li{
+	float: center;
+	padding-left: 55px;
+	list-style: none;
+}
+
+#menu ul li a{
+	font-size: 13px;
+	text-decoration:none;
+}
+
+#welcome {
+	color: #FFFFFF;
+	margin-top: 5px;
+}
+
+#welcome a {
+	color:#00FF00;
+}
+
+#main {
+	background-color:#FFFFFF;
+	border-left: 3px #000000 solid;
+	border-right: 3px #000000 solid;
+	border-bottom: 3px #000000 solid;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#main ul#mod_listing {
+	width: 680px;
+	margin-left: auto;
+	margin-right:auto;
+	z-index: 0;
+}
+
+#main ul#mod_listing li img {
+	float:left;
+	position:relative;
+}
+
+#main ul#mod_listing li div.details {
+	float:left;
+	width: 185px;
+	margin-left: 10px;
+}
+
+#main ul#mod_listing li div.details h2.title a {
+	font-weight:bold;
+	font-size: 15px;
+	color:#009900;
+}
+
+#main ul#mod_listing li div.details p.description {
+	font-size: 12px;
+}
+
+#main ul#mod_listing li {
+	position:relative;
+	list-style: none;
+	float: left;
+	width: 300px;
+	border: 1px #000000 solid;
+	margin: 0px 10px 10px 0px;
+	/*t r b l*/
+	padding: 10px 0px 10px 10px;
+}
+
+#main ul#mod_listing li div.details  ul {
+	float: left;
+	border: none;
+}
+
+#main ul#mod_listing li div.details  ul li {
+	list-style:disc;
+	float:left;
+	border: none;
+	margin: 0px 0px 0px 15px;
+	/*t r b l*/
+	padding: 0px;
+}
+
+#sys_warning {
+	border: 2px #FF9900 solid;
+	background: #FFCC00;
+	color:#FF3300;
+}
+
+#sys_success {
+	border: 2px #009900 solid;
+	background:#99FF99;
+	color:#003300;
+}
+
+.sys_notify {
+	border: 2px #009900 solid;
+	background:#99FF99;
+	color:#003300;
+}
+
+table.list {
+	text-align:center;
+}
+
+table.shortlist {
+	width:80%;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.colored0 {
+	background: #F3F3F3;
+}
+
+.colored1 {
+	background: #FFFFFF;
+}
+
+tr.theader {
+	background:#009900;
+	color:#FFFFFF;
+	vertical-align: middle;
+	text-align:center;
+}
+
+table#list tr td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+table.list td.list_item { width:33%; }
+
+table.list td.check {
+	text-align:center;
+	width: 3%;
+}

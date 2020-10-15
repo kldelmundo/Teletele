@@ -1,0 +1,169 @@
+/* Screen Styles */
+
+/* Splash Page */
+
+#splash {
+	background: #999999 ;
+	overflow: hidden;
+}
+
+#bottom {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	margin: -30px 0 0 0;
+	padding: 0;
+	background-color: #000000;
+	border-top: 30px solid #666666;
+}
+
+#banner {
+	position: absolute;
+	top: 0; left: 50%;
+	margin: 0 0 0 -300px;
+	width: 332px;
+	height: 100%;
+	background: #cccccc url(images/bannerBg.gif) left bottom no-repeat;
+}
+
+#splash #logo {
+	position: absolute;
+	top: 50%; left: 50%;
+	margin: -30px 0 0 125px;
+}
+
+#splash #image {
+	position: absolute;
+	top: 50%; left: 50%;
+	margin: -111px 0 0 -300px;
+	border: 1px solid #ffffff;
+}
+
+/* Main Styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	/*background: #000000 url(images/bodyBg.gif) 50% 0 repeat-y;*/
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+#page {
+	width: 750px;
+	margin: 10px auto 10px auto;
+	font-size: 90%;
+}
+
+#header {
+	margin-top: 40px;
+	background-color: #cccccc;
+	height: 60px;
+}
+
+#header div {
+	width: 750px;
+	margin: 0 auto 0 auto;
+}
+
+#header h1 {
+	float: left;
+	margin: 6px 0 0 2px;
+	text-indent: -1000px;
+	background: url(images/philedwards.gif) no-repeat;
+	height: 47px;
+	width: 137px;
+}
+
+#header p {
+	float: right;
+	margin: 10px 0 0 0;
+	text-align: right;
+}
+
+#menu {
+	float: left;
+	width: 140px;
+	margin: 15px 0 0 0;
+	padding: 1px 0 0 0;
+	background: url(images/dotted.gif) left top repeat-x;
+	list-style-type: none;
+	color: #cccccc;
+}
+
+#menu li {
+	display: block;
+	background: url(images/dotted.gif) left bottom repeat-x;
+	padding: 2px 0 4px 0;
+}
+
+#menu a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	color: #71B8FF;
+}
+
+#content {
+	float: right;
+	width: 570px;
+	margin: 15px 0 0 0;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2 { 
+	font-size: 125%;
+}
+
+h3 {
+	font-size: 100%;
+}
+
+/* Alignment */
+
+.center {
+	text-align: center;
+}
+
+.floatLeft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.floatRight {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+/* Misc */
+
+a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:hover, span.link {
+	color: #3E9EFF;
+}
+
+a img {
+	border: none;
+}

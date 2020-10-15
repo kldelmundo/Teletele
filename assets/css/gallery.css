@@ -1,0 +1,78 @@
+/* Gallery Styles */
+
+a {
+	outline: none;
+}
+
+#gallery {
+	width: 430px;
+	margin: 0 auto 0 auto;
+}
+
+#thumbs {
+	width: 430px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background: #666666 url(images/galleryTop.gif) no-repeat;
+}
+
+#innerThumbs {
+	padding: 15px 15px 10px 15px;
+	background: url(images/galleryBottom.gif) left bottom no-repeat;
+}
+
+#thumbs ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#thumbs li {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+#thumbs ul img {
+	border: 3px solid #E5E5E5;
+}
+
+#thumbs ul img.active {
+	border: 3px solid #FFCC00;
+}
+
+#imageTop {
+	border: 1px solid #FFFFFF;
+	width: 430px;
+	margin: 0;
+	padding: 0;
+	/*background: #666666 url(images/galleryTop.gif) no-repeat;*/
+}
+
+#imageBottom {
+	/*background: url(images/galleryBottom.gif) left bottom no-repeat;*/
+}
+
+#imageContainer {
+	width: 400px;
+	border: 1px solid #333333;
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+}
+
+#imageContainer.loading
+{
+	background: url(images/loading.gif) center center no-repeat;
+}
+
+/* Clear Fix */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+/* End hide from IE-mac */

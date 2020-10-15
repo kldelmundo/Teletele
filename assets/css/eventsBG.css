@@ -1,0 +1,223 @@
+/* 
+Created by: Rowel S. Bustillo
+			Web Developer
+			TIP Manila
+			October 16, 2007
+
+Updated by: Beca Jane Frigillana
+            UI Designer
+            Bliss Design Studio
+            Dec 12, 2019
+
+*/
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+	height:20px;
+}
+.clear2 {
+	clear: both;
+	height: 30px;
+}
+
+.space {
+	clear: both;
+}
+
+
+
+#outer {
+	/*background: bottom center url(../images/footer.gif) repeat-x;*/
+}
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 907px;
+}
+#banner {
+	margin-top:-30px;
+	border: 0px solid #000000;
+	padding-top:5px;
+	height: 182px;
+	background: bottom center url(../images/header3.png) repeat-x;
+}
+
+
+
+
+/*********************************LEFT CONTENT*****************************/
+
+
+#body {
+	background: top left #FFFFFF url(../images/bg_body.gif) repeat-y;
+	position: relative;
+	width:907px;
+}
+#banner-down {
+	border: 0px solid #000000;
+	background: top left #FFFFFF url(../images/hr-top.gif) repeat-x;
+	padding: 30px 0 0 0;
+}
+#body-center {
+	margin:10px	;
+	border: 0px solid #000000;
+	width: 100%;
+	float:left;
+	padding: 5px 0px 5px 0px;
+}
+#body-left {
+	border: 0px solid #000000;
+	float: left;
+	width: 600px;
+	padding: 3px 10px 0px 10px;
+}
+.tag-title {
+	font-size: 18px;
+	font-weight:bold;
+	display:block;
+	padding-left: 30px;
+	height: 28px;
+	background: top left url(../images/tag.gif) no-repeat;
+}
+
+#left-content {
+	text-align:justify;
+	padding-left: 20px;
+    
+}
+	#left-content .title {
+		font-size: 21px;
+		font-weight:bold;
+		display:block;
+		border: 0px solid #CCCCCC;
+		
+	}
+	#left-content .subTitle {
+		font-size:16px;
+		display:block;
+		font-weight:bold;
+		padding-left:10px;
+	}
+	#left-content .sched {
+		padding-left:50px;
+	}
+	#left-content .context {
+		border: 0px solid #000000;
+		padding:5px 0px 0px 20px;
+	}
+/**************************************RIGHT CONTENTS***********************************/
+
+#body-right {
+	float: right;
+	width: 280px;
+	padding: 40px 0 0 0;
+	text-align:justify;
+    background-color: #e9e9ea;
+}
+.left-title {
+
+	padding: 0px 0px 0px 10px;
+	margin-bottom: 5px;
+    font: 14px Avenir Next;
+	border-bottom: 1px solid #c47946;
+    color: #7e9b6b;
+    font-weight: 650;
+}
+
+
+.mtitle a {
+    text-decoration: none;
+    color: #b06328;
+}  
+	
+
+.mtitleONE {
+    padding-top: 40px; 
+    font-family: Akrobat; 
+    font-size: 18px; 
+    color: #5e6e51;
+}  
+
+
+
+
+/************************************IMAGES*************************************/
+
+
+.bg-separator {
+	border: 0px solid #000000;
+	background: top left url(../images/bg_separator.gif) no-repeat;
+	float:left;
+	width:19px;
+	height:307px;
+}
+.bg-img {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/bg-extra2.gif) no-repeat;
+}
+.bg-img-links {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/links.gif) no-repeat;
+}
+.bg-img-rules {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/rules.gif) no-repeat;
+}
+.bg-img-services {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/books.gif) no-repeat;
+}
+.img-holder {
+	border: 0px solid #000000;
+	padding: 10px 5px 10px 5px;
+	text-align:center;
+}
+.img-holder img {
+	border: 1px solid #CACACA;
+}
+
+/**********************************FACILITIES***************************************/
+
+
+
+.ftitle {
+	font:12px Avenir Next;
+	display:block;
+	padding: 5px 0px 0px 30px;
+}
+
+
+
+.fContainer {
+	border: 1px solid #000000;
+	padding: 10px 10px 10px 10px;
+}
+.content_slide {
+	border: 1px solid #000000;
+}

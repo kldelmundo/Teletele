@@ -1,0 +1,314 @@
+html,body {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family:Helvetice,Verdana,Sans;
+	font-size:65%;
+	color:#414141;
+	text-align:center;
+	background:#f5fafa;
+}
+#wrap {
+	text-align:left;
+	margin:10px auto;
+	width:980px;
+	background:#fff;
+	border:1px solid lightgreen;
+	padding:5px 10px;
+	min-height:540px;
+}
+#header {
+
+}
+
+#nav {
+	position:relative;
+	background:#000;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family:"Trebuchet MS";
+	letter-spacing:-1px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	
+}
+a {
+	color:#459E00;
+}
+
+
+#left,#right {
+	float:left;
+}
+#left {
+	width:178px;
+	border:1px solid #4CC417;
+	position:relative;
+	top:5px;
+}
+
+div.left_item:hover {background-color:#FFF;}
+
+
+.left_item {
+	color:#4f6b72;
+	display:block;
+	padding:3px 5px;
+	border-bottom:1px solid #c1dad7;
+	background:#f5f3e5;
+}
+
+#right {
+	width:790px;
+	margin-left:10px;
+	margin-top:5px;
+}
+.clear {
+	clear:both;
+}
+#message {
+	display:none;
+	margin:2px;
+}
+table {
+	border:1px solid lightgreen;
+	width:100%;
+	padding:0;
+	margin-bottom:5px;
+	border-collapse: collapse;
+}
+caption {
+	padding:0 0 5px 0;
+	width:100%;
+	font:italic 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	text-align:right;
+}
+th {
+	font:bold 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	border:1px solid lightgreen;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	text-align:left;
+	color: white;
+	padding:6px 6px 6px 12px;
+	background:#459E00 repeat-x;
+}
+th.nobg {
+	border-top:0;
+	border-left:0;
+	border-right:1px solid #c1dad7;
+	background:inherit;
+}
+td {
+	border:1px solid lightgreen;
+	padding:6px 6px 6px 6px;
+	color:green;
+	
+}
+.odd {
+	background:#f5fafa;
+	color:#797268;
+}
+.pagination {
+	float:right;
+	margin:10px 0;
+}
+.pitem {
+	padding:5px 10px;
+	border:1px solid lightgreen;
+	background:#F5F3E5;
+}
+.cur_tag_open {
+	color: white;
+	background:#459E00;
+}
+h1 {
+	font-size:18px;
+	border:3px solid #4CC417;
+	background:#459E00 repeat-x;
+	color: white;
+	display:block;
+	
+	padding:5px 10px;
+}
+
+#invoice_left,#invoice_right {
+	float:left;
+	width:49%;
+}
+#invoice_left {
+	margin-right:2%;
+}
+.icon {
+	width:24px;
+}
+#createNew {
+	display:none;
+}
+#footer {
+	height:50px;
+}
+input[type="text"] {
+	border:1px solid #c1dad7;
+	padding:2px 4px;
+}
+textarea {
+	border:1px solid #c1dad7;
+	width:320px;
+	height:80px;
+	padding:3px 4px;
+}
+#left h3 {
+	padding:5px;
+	background: url("images/ui-bg_highlight-hard_15_459e00_1x100.png") repeat-x scroll 50% 50% #459E00;
+	text-transform:uppercase;
+	letter-spacing:0;
+	font-size:11px;
+	font-weight:bold;
+	color: white;
+}
+.noborder {
+	padding:0;
+	margin:0;
+	border:0;
+	width:40px;
+	color:#4f6b72;
+	font-size:12px;
+}
+img {
+	border: 0;
+}
+.float_anchor {
+	position:relative;
+	top:8px;
+	text-decoration:none;
+	font:bold 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	color:#459E00;
+	
+}
+.float_icon {
+	float:left;
+	margin-right:5px;
+}
+.strong {
+	font-size:14px;
+}
+.notes {
+	font-size:11px;
+	color:#4f6b72;
+}
+.huge {
+	font-size:32px;
+}
+.day {
+	width:100px;
+	height:70px;
+}
+.highlight {
+
+}
+.small_icon {
+	width:12px;
+}
+
+/*************************************************************************/
+/*							LOG IN BOX									 */
+/*************************************************************************/
+
+#form-login {
+
+	font: normal 11px Arial, Helvetica, sans-serif;
+	text-align: left;
+	background: #459E00;
+	margin:auto;
+	border: 1px solid lightgreen;
+	padding: 20px;
+	
+	width: 25%;
+	
+	
+}	
+
+#login-label {
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: calibri;
+	padding: 10px 10px 10px 0px;
+}
+
+#login-label2 {
+	color: #FFF;
+	font-size: 15px;
+	font-family: calibri;
+	padding: 10px 10px 10px 0px;
+}
+
+#form-login .ui-widget p{
+	padding: 5px;
+	border: 0px solid #000000;
+}
+
+
+#form-login div{
+	border: 0px solid #000000;
+	margin:5px;
+}
+
+#user_pass,#user_login {
+	margin:20px 10px 20px 10px;
+	font-size:24px;
+	width:90%;
+	padding:3px;
+	margin-top:2px;
+	margin-bottom:16px;
+	border:2px solid lightgreen;
+	background:#fbfbfb;
+}
+
+#form-login input[type="submit"] {
+
+width:80px;
+}
+
+
+
+#form-add.button a {
+	clear:both;
+	width:125px;
+	height:31px;
+	font-size:15px;	
+	text-decoration: none;
+	text-align:center;
+}
+
+#create_item.button button {
+	clear:both;
+	height:31px;
+	/*background:#666666 url(http://localhost/inventory/assets/images/button.png) no-repeat;*/
+	text-align:center;
+	font-size:12px;
+}
+
+#create_customer.button button {
+	clear:both;
+	height:31px;
+	/*background:#666666 url(http://localhost/inventory/assets/images/button.png) no-repeat;*/
+	text-align:center;
+	font-size:12px;
+}
+
+#create_invoice.button button {
+	clear:both;
+	height:31px;
+	/*background:#666666 url(http://localhost/inventory/assets/images/button.png) no-repeat;*/
+	text-align:center;
+	font-size:12px;
+}
+
+	
+
+	

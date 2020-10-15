@@ -1,0 +1,44 @@
+/* CSS for scrolling thumbnails */
+
+#thumbs {
+	position: relative;
+	margin: 10px 0 0 0;
+	width: 430px;
+	height: 75px;
+	border: 1px solid #000000;
+	background-color: #F8F8F8;
+	/*background: url(../images/filmstrip.gif) repeat-x;*/
+	overflow: hidden;
+}
+
+#left {
+	position: absolute;
+	top: 0; left: 0;
+}
+
+#right {
+	position: absolute;
+	top: 0; right: 0;
+}
+
+#left, #right {
+	border: none;
+	cursor: pointer;
+}
+
+#thumbs #innerThumbs {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 14px; left: 15px;
+	background: none;
+	border: none;
+}
+
+#thumbs ul li {
+	margin: 0 5px 0 0;
+}
+
+#thumbs ul li img {
+	border: 3px solid #333333;
+}

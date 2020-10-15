@@ -1,0 +1,526 @@
+/* 
+Created by: Jethro Malate
+			PHP/Web Developer
+			
+			December 19, 2011
+*/
+html, body, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	border: 0;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+	height:20px;
+}
+.clear2 {
+	clear: both;
+	height: 30px;
+}
+
+.space {
+	clear: both;
+}
+
+body {
+	text-align: justify;
+	
+	font: 12px Arial, Trebuchet MS;		
+/*	background: #3D3D3D url(../images/bg_01.gif) repeat-x;*/
+	background: white;
+}
+#outer {
+	/*background: bottom center url(../images/footer.gif) repeat-x;*/
+}
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 779px;
+}
+#banner {
+	margin-top:-30px;
+	border: 0px solid #000000;
+	padding-top:5px;
+	height: 182px;
+	background: bottom center url(../images/header2.png) repeat-x;
+}
+#head-menu {
+	border: 1px solid #000000;
+	padding: 5px 5px 5px 5px;
+
+}
+
+#login {
+	width: 300px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #999999;
+}
+#register {
+	width: 400px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #999999;
+}
+
+
+/*************************************************************************/
+/*								LEFT CONTENT							 */
+/*************************************************************************/
+
+#body {
+	background: top left #FFFFFF url(../images/bg_body.gif) repeat-y;
+	position: relative;
+	width:779px;
+}
+#banner-down {
+	border: 0px solid #000000;
+	background: top left #FFFFFF url(../images/hr-top.gif) repeat-x;
+	padding: 30px 0 0 0;
+}
+#body-center {
+	border: 0px solid #000000;
+	width: 100%;
+	float:left;
+	padding: 5px 0px 5px 0px;
+}
+#body-left {
+	border: 0px solid #000000;
+	float: left;
+	width: 490px;
+	padding: 3px 10px 0px 10px;
+}
+.tag-title {
+	font-size: 18px;
+	font-weight:bold;
+	display:block;
+	padding-left: 30px;
+	height: 28px;
+	background: top left url(../images/tag.gif) no-repeat;
+}
+
+#left-content {
+	text-align:justify;
+	padding-left: 20px;
+}
+	#left-content .title {
+		font-size: 21px;
+		font-weight:bold;
+		display:block;
+		border: 0px solid #CCCCCC;
+		
+	}
+	#left-content .subTitle {
+		font-size:16px;
+		display:block;
+		font-weight:bold;
+		padding-left:10px;
+	}
+	#left-content .sched {
+		padding-left:50px;
+	}
+	#left-content .context {
+		border: 0px solid #000000;
+		padding:5px 0px 0px 20px;
+	}
+/*************************************************************************/
+/*								RIGHT CONTENTS							 */
+/*************************************************************************/
+#body-right {
+	border: 0px solid #000000;
+	float: right;
+	width: 250px;
+	padding: 3px 0 0 0;
+	text-align:justify;
+}
+.left-title {
+	padding: 0px 0px 0px 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	border-bottom: 1px solid #FF9900;
+	background: bottom left url(../images/bullet/rating_star.png) no-repeat;
+}
+
+#right-content {
+	border: 0px solid #000000;
+	float: left;
+	padding: 10px 10px 0px 10px;
+	width: 80%;
+}
+#right-content ul {	
+	border: 0px solid #000000;
+	font-size:11px;
+	text-align:left;
+
+	margin: 0px 0px 0px 20%;
+	padding-top: 5px;
+	padding-left: 0;
+
+	list-style: none outside url(../images/bullet/ico_pdf_small.gif);
+}
+#right-content li {
+	border-bottom: 1px solid #CCCCCC;
+}
+.catTitle {
+	border: 0px solid #000000;
+}
+.catTitle:hover{
+	border: 0px solid #000000;
+	background-color:#EFEFEF;
+}
+	.catTitle a {
+		color:#999999;
+		text-decoration: none;
+	}
+	.catTitle a:hover{
+		color: #FF0000;	
+	}
+.catref {
+	display:block;
+	border: 0px solid #000000;
+}
+
+/*************************************************************************/
+/*								IMAGES									 */
+/*************************************************************************/
+
+.bg-separator {
+	border: 0px solid #000000;
+	background: top left url(../images/bg_separator.gif) no-repeat;
+	float:left;
+	width:19px;
+	height:307px;
+}
+.bg-img {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/bg-extra2.gif) no-repeat;
+}
+.bg-img-links {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/links.gif) no-repeat;
+}
+.bg-img-rules {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/rules.gif) no-repeat;
+}
+.bg-img-services {
+	border: 0px solid #000000;
+	position:relative;
+	float: left;
+	width: 183px;
+	height: 256px;
+	padding:0px 3px 0px 0px;
+	background: top 3px url(../images/books.gif) no-repeat;
+}
+.img-holder {
+	border: 0px solid #000000;
+	padding: 10px 5px 10px 5px;
+	text-align:center;
+}
+.img-holder img {
+	border: 1px solid #CACACA;
+}
+/*************************************************************************/
+/*								TABLE									 */
+/*************************************************************************/
+table {
+	margin: 8px; 
+	padding: 2px; 
+	border-collapse: collapse; 
+	width: 98%;
+	font-size:11px;
+	border: 1px solid #CACACA;
+	
+}
+td, th {
+	padding: 5px 5px; 
+	/*border:1px solid #EEE; */ 
+}
+th {
+	text-align: left;
+}
+
+tr:hover
+{
+background-color:lightgray;
+} 
+
+tr {
+	
+	font: 10px;
+	/*background-color: #F8F8F8; */
+	color: black;
+}
+
+.totals {
+	background-color: gray; 
+	border:1px solid black;  
+	padding:2px; 
+	font-size:13px; 
+	font-weight:bold;
+	
+	
+}
+
+.Thead {
+	color:#FFFFFF;
+	background: url(../images/tblh.gif) #535353 repeat-x;
+	font-weight:bold;
+}
+/*************************************************************************/
+/*								FACILITIES								 */
+/*************************************************************************/
+#fclts {
+	border: 0px solid #000000;
+	text-align:justify;
+	padding: 5px 5px 5px 30px;
+
+}
+#fclts .content{
+	list-style:none;
+	padding-top:50px 0px 0px 20px;
+	background: top left url(../images/bg-extra.jpg) no-repeat;
+
+}
+	#fclts .contentleft {
+		padding: 5px 5px 5px 5px;
+		border-bottom: 1px dashed #C7C7C7;
+		border-top: 1px dashed #C7C7C7;
+	}
+	
+	#fclts .contentcenter {
+		width:228px;
+		padding-left:10px;
+		float:left;
+	}
+	
+	#fclts .contentright {
+		width:200px;
+		padding-left:10px;
+		float:left;
+	}
+
+	a.thumb img{
+		border: 3px solid #FFCC33;
+	}
+	a:hover.thumb img{
+		border: 3px solid #000000;
+	}
+	
+#fclts .txt-cont {
+	font-size:12px;
+	padding-left:5px;
+	background-color: #F0F0F0;
+}
+	#fclts .txt-cont ul{
+		margin: 5px 0px 2px 10px;
+		list-style: none outside url(../images/bullet/2.gif);
+
+	}
+	#fclts .txt-cont li{
+		padding-left:5px;
+	}
+
+.ftitle {
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+	padding: 5px 0px 0px 30px;
+}
+.fContainer {
+	border: 1px solid #000000;
+	padding: 10px 10px 10px 10px;
+}
+.content_slide {
+	border: 1px solid #000000;
+}
+/*************************************************************************/
+/*								LINKS									 */
+/*************************************************************************/
+#links {
+	font-size:12px;
+	font-weight:bold;
+	display:block;
+	padding: 10px 0px 5px 5px;
+	border: 0px solid #CCCCCC;
+}
+	#links ul.toplink{
+		list-style:none;
+		list-style-position:outside;
+		list-style-image: url(../images/bullet/link.gif);
+	}
+	#links li a {
+		text-decoration: none;
+		color:#003366;
+	}
+	#links li a:hover{
+		color:#FFCC33;
+	}
+	
+	#links .htitle {
+		border: 0px solid #CCCCCC;
+		font-size:14px;
+		font-weight:bold;
+		height:25px;
+	}
+ 
+	#links .hsub {
+		border: 1px solid #CCCCCC;
+		height:20px;
+		font-weight: bold;
+		padding: 5px 0px 0px 20px;
+		background: top left url(../images/bullet/loupe.gif) no-repeat;
+	}
+		#links .hsub a{
+		  text-decoration:none;
+		  color:#003366;
+		}
+		#links .hsub a:hover{
+		  color:#FFCC33;
+		 }
+	
+	#links .hcontent{
+		border-bottom: 0px solid #C0C0C0;
+		margin-left: 30px;
+
+	}
+	#links ul.downlink{
+		list-style:none;
+		list-style-position:outside;
+		list-style-image: url(../images/bullet/link.gif);
+	}
+
+/*************************************************************************/
+/*								MENU									 */
+/*************************************************************************/
+
+#menu{
+	border: 0px solid #999;
+	padding: 5px 8px 0px 15px;
+	font-size:11px;
+	text-align:left;
+}
+	#menu .mtitle a{
+		padding: 3px 0px 0px 10px;
+		display: block;
+		width: 100%;
+		text-decoration: none;
+		color:#333333;
+		font-weight: bold;
+		border-bottom: 1px solid #E5E5E5;
+		background: center left url(../images/bullet/_2.gif) no-repeat;
+	}
+	#menu .mtitle a:hover{
+		color:#FFCC00;
+		background: center left url(../images/bullet/2.gif) no-repeat;
+	}
+	#menu .mtitle a:active {
+		background: center left url(../images/bullet/2.gif) no-repeat;
+		color:#FFCC00;
+	}
+	#menu .mtitle a:focus {
+		background: center left url(../images/bullet/2.gif) no-repeat;
+		color:#FFCC00;
+	}
+	
+	#menu .mcontent{
+		border-bottom: 0px solid #C0C0C0;
+		margin: 0px -8px;
+	}
+	.contTitle{
+		border-left: 0px solid #999;
+		display:block;
+		font-weight:bold;
+
+	}
+
+/*************************************************************************/
+/*								FOOTER									 */
+/*************************************************************************/
+#FOOTER{ 
+	border: 0px solid #FFFFFF;
+	text-align:center; 
+	height: 23px; 
+	width: 779px;
+	padding: 20px 10px;
+
+}	
+	#FOOTER p{ 
+		font-size: 10px; 
+		color: #889199;
+		margin: 1px;
+	}
+	#FOOTER a{ 
+		text-decoration: none; 
+		color: #FFFFFF; 
+	}
+	#FOOTER a:hover{
+		color:#FFCC00;
+		text-decoration:underline;
+	}
+
+
+.info {
+	font-size: 11px;
+	border: 0px solid #000000;
+	padding: 0px 0px 5px 25px;
+
+}
+/*------------------- SLIDE SHOW @ FACILITIES --------------------------*/
+div#show3 {
+	background-color:#efefef;
+	width:140px;
+	margin:0 auto;
+/*	border:1px solid #444444;*/
+	border:1px solid #000000;
+}
+div#show3 table td, div#show4 table td {
+	height:24px;
+	background-image:url('38.gif');
+}
+div#show4 table td {
+	background-image:url('40.gif');
+}
+div#show3 table input,  div#show4 table input {
+	outline-style:none;
+}
+/*------------------- PDF PROPERTIES --------------------------*/
+
+.pdf {
+	background: center left #FFCACA url(../images/bullet/pdf2.gif) no-repeat;
+	font-size: 10px;
+	border: 1px solid #FF0000;
+	padding: 5px 10px 5px 35px;
+}
+.pdf a {
+	text-decoration: none;
+	color:#FF0000;
+}
+.pdf a:hover {
+	color:#FFFFFF;
+	background-color:#FF0000;
+}
+
+
